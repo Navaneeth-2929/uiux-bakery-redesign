@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zed The Baker · Parisian Baking, Bengaluru Soul</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Zed The Baker</div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <button class="order-btn">Order Online</button>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Parisian Baking,<br>Bengaluru Soul</h1>
+                <p class="hero-description">
+                    Artisanal croissants, celebration cakes, and all-day dining with a Parisian twist. 
+                    Freshly baked daily in Bengaluru.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Explore Menu</button>
+                    <button class="btn btn-secondary">Visit Us</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Replace with your actual image path -->
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/14/1b068c1d-85bd-4c53-878a-90dd9814e051_763998.jpg" 
+                     alt="Fresh butter croissant" 
+                     class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Cards Section -->
+<section class="services">
+    <div class="container">
+        <h2 class="section-title">Our Offerings</h2>
+        
+        <div class="cards-container">
+            <!-- Card 1: Artisan Bakery -->
+            <div class="card" data-card="1">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Fresh croissants" 
+                         class="card-img"
+                         loading="lazy">
+                </div>
+                <div class="card-content">
+                    <div class="card-icon">🥖</div>
+                    <h3 class="card-title">Artisan Bakery</h3>
+                    <div class="card-description">
+                        <p class="card-preview">Parisian croissants, cheesecakes, handcrafted macarons, and artisanal celebration cakes. Baked fresh daily.</p>
+                        <div class="card-full hidden">
+                            <p>Our signature butter croissants use French techniques with local ingredients. Try our Belgian Chocolate Truffle, Tres Leches Cake, and seasonal fruit tarts.</p>
+                        </div>
+                    </div>
+                    <button class="read-more" data-card="1">Read More →</button>
+                </div>
+            </div>
+
+            <!-- Card 2: All-Day Dining -->
+            <div class="card" data-card="2">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Breakfast spread" 
+                         class="card-img"
+                         loading="lazy">
+                </div>
+                <div class="card-content">
+                    <div class="card-icon">🍰</div>
+                    <h3 class="card-title">All-Day Dining</h3>
+                    <div class="card-description">
+                        <p class="card-preview">Breakfast, burgers, pasta, and all-day café menu. From morning coffee to evening meals.</p>
+                        <div class="card-full hidden">
+                            <p>Start your day with our eggs benedict, enjoy lunch burgers, or share a pasta dinner. Full espresso bar with artisanal coffee.</p>
+                        </div>
+                    </div>
+                    <button class="read-more" data-card="2">Read More →</button>
+                </div>
+            </div>
+
+            <!-- Card 3: Night Steakhouse -->
+            <div class="card" data-card="3">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Grilled steak" 
+                         class="card-img"
+                         loading="lazy">
+                </div>
+                <div class="card-content">
+                    <div class="card-icon">🥩</div>
+                    <h3 class="card-title">Night Steakhouse</h3>
+                    <div class="card-description">
+                        <p class="card-preview">Indiranagar turns into a steakhouse at night. Always something new on the grill.</p>
+                        <div class="card-full hidden">
+                            <p>Evenings only at our Indiranagar location. Premium cuts, grilled to perfection, with wine pairings and live music on weekends.</p>
+                        </div>
+                    </div>
+                    <button class="read-more" data-card="3">Read More →</button>
+                </div>
+            </div>
+
+            <!-- Card 4: Events & Catering -->
+            <div class="card" data-card="4">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Event catering setup" 
+                         class="card-img"
+                         loading="lazy">
+                </div>
+                <div class="card-content">
+                    <div class="card-icon">🎉</div>
+                    <h3 class="card-title">Events & Catering</h3>
+                    <div class="card-description">
+                        <p class="card-preview">Private parties, office events, celebrations. We bring the Zed experience to you.</p>
+                        <div class="card-full hidden">
+                            <p>Custom menus for any occasion. From intimate gatherings to corporate events. Food, drinks, and good vibes all sorted.</p>
+                        </div>
+                    </div>
+                    <button class="read-more" data-card="4">Read More →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Story Section -->
+    <section id="story" class="story">
+        <div class="container story-container">
+            <div class="story-image">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                     alt="Baker at work" 
+                     class="story-img">
+            </div>
+            <div class="story-content">
+                <h2 class="story-title">Our Story</h2>
+                <div class="story-quote">
+                    "Flour on my hands, butter in my hair, mixing classic European baking with our city's energy."
+                </div>
+                <p class="story-text">
+                    Started in 2018 with a wild idea—bring Paris vibes right into Bengaluru. We grew from a tiny bakery to a buzzing café, now even flipping steaks at night in Indiranagar. For me, it's all about that first bite, warm chat, and a little bit of magic in every pastry.
+                </p>
+                <p class="story-author">— Zaid, Founder</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations" class="locations">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="locations-grid">
+                <div class="location-item">Indiranagar</div>
+                <div class="location-item">Cunningham Road</div>
+                <div class="location-item">Church Street</div>
+                <div class="location-item">Bowring Institute</div>
+                <div class="location-item">Jayanagar</div>
+                <div class="location-item">Koramangala</div>
+            </div>
+            <p class="locations-note">14+ outlets across Bengaluru · New locations opening soon</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">Zed The Baker</div>
+                <p class="footer-tagline">Parisian baking with Bengaluru soul.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📷</a>
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">🐦</a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#story">Our Story</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Bulk Orders</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h4>Fresh from the oven</h4>
+                <p>Join our Relo loyalty program for updates & offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email" class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">→</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 Zed The Baker. All rights reserved. Follow us @zedthebaker</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
