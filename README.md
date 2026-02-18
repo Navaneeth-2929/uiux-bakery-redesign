@@ -8,4 +8,5 @@ Before
 <img width="1208" height="4096" alt="Before webpage" src="https://github.com/user-attachments/assets/1b6fb655-a1e8-4e74-9964-44a9f091e197" />
 
 After my Design
-<img width="1208" height="4015" alt="After Image" src="https://github.com/user-attachments/assets/381fe00b-5eef-4e0a-ac44-b4440d205d5b" />
+
+<img width="1208" height="3880" alt="127 0 0 1_5500_index html (2)" src="https://github.com/user-attachments/assets/63b037ad-55d8-4f1a-a20d-69117ff30c75" />
